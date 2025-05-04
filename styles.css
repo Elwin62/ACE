@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffc107;
+  }
+  
+  a:hover {
+    color: #ffffff;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #1c1c1c !important;
+  }
+  
+  .navbar .nav-link {
+    color: #f0f0f0 !important;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .navbar .nav-link.active,
+  .navbar .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
+  /* Buttons */
+  .btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Section Titles */
+  h2, h3, h4 {
+    color: #ffc107;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #1f1f1f;
+    border: none;
+    color: #fff;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(255, 193, 7, 0.3);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0d0d0d;
+    color: #aaa;
+  }
+  
+  footer a {
+    font-size: 1.3rem;
+    color: #ffc107;
+    transition: 0.3s;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
+  /* Custom section backgrounds */
+  .bg-light {
+    background-color: #1a1a1a !important;
+  }
+  
+  .bg-dark {
+    background-color: #0f0f0f !important;
+  }
+  
